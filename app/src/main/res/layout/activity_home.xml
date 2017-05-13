@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/back"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bharatbahl.fitnessfriend.HomeActivity">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:src="@drawable/spr"
+        />
+
+    <Button
+        android:text="Count Steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:width="350dp"
+
+        android:layout_below="@+id/img"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Calorie Intake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:width="350dp"
+
+        android:layout_below="@+id/button4"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:width="350dp"
+        android:text="See Diet Plan"
+
+        android:layout_below="@+id/button5"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Calories Burnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:width="350dp"
+
+        android:layout_below="@+id/button6"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="FIND FRIENDS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:width="350dp"
+
+        android:layout_below="@+id/button7"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Play Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true"
+        android:width="350dp"/>
+
+</RelativeLayout>
